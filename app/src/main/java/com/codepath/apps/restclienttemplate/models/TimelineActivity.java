@@ -1,5 +1,6 @@
 package com.codepath.apps.restclienttemplate.models;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.codepath.apps.restclienttemplate.ComposeActivity;
 import com.codepath.apps.restclienttemplate.R;
 import com.codepath.apps.restclienttemplate.TweetsAdapter;
 import com.codepath.apps.restclienttemplate.TwitterApp;
@@ -78,8 +80,9 @@ public class TimelineActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.compose) {
             // Compose icon has been selected
-            Toast.makeText(this, "Compose!", Toast.LENGTH_SHORT).show();
             // Navigate to the compose activity
+            Intent intent = new Intent(this, ComposeActivity.class);
+            startActivity(intent);
             return true;
 
         }
