@@ -26,7 +26,8 @@
             android:gravity="start|top"
             android:hint="@string/what_s_happening"
             android:inputType="textMultiLine"
-            android:minLines="5" />
+            android:minLines="5"
+            android:autofillHints="" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
