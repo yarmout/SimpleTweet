@@ -8,7 +8,7 @@
         -->
         <item name="colorPrimary">#08A0E9</item>
         <item name="colorPrimaryDark">#0084B4</item>
-        <item name="colorAccent">#E8F5FD</item>
+        <item name="colorAccent">#0084B4</item>
         <item name="android:icon">@drawable/twitter</item>
     </style>
 
