@@ -31,7 +31,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Improve the font color schemes to different username and tweet content, as well as make tweets stand out more
 
 ## Video Walkthrough
 
